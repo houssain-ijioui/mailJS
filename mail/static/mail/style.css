@@ -1,0 +1,40 @@
+textarea {
+    min-height: 400px;
+}
+
+.email {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+.email div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.email h2 {
+    font-weight: 600;
+    font-size: 22px;
+    margin-right: 10px;
+}
+
+.email h3 {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.email h4 {
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.read {
+    background-color:#D0D0D0;
+}
